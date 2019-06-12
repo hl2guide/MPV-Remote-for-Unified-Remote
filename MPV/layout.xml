@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<!-- Main -->
+	<row lightcolor="#09060a" darkcolor="#09060a">
+		<button text="Exit" icon="docclose" ontap="exit" />
+		<toggle text="" icon="fullscreen" checked="false" onchange="fullscreen" />
+		<button text="" icon="camera" onchange="screenshot" />
+	</row>
+	<!-- Playback -->
+	<row lightcolor="#703E7A" darkcolor="#451654">
+		<!--<button text="" icon="previous" ontap="seekprevious" />-->
+		<button text="" icon="arrowleft" ontap="seekleftmore" />
+		<button text="Seek Left" icon="left" ontap="seekleft" />
+		<toggle text="" icon="playpause" checked="false" onchange="playpause" />
+		<button text="Seek Right" icon="right" ontap="seekright" />
+		<button text="" icon="arrowright" ontap="seekrightmore" />
+		<!--<button text="" icon="next" ontap="seeknext" />-->
+	</row>
+	<!-- Volume -->
+	<row lightcolor="#524c54" darkcolor="#524c54">
+		<button text="Vol Down" icon="vdown" ontap="volumedown" />
+		<button text="Vol Up" icon="vup" ontap="volumeup" />
+		<toggle text="" icon="vmute" checked="false" onchange="mute" />
+	</row>
+</layout>
