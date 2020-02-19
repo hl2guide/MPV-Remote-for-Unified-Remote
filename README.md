@@ -1,6 +1,8 @@
 # MPV-Remote-for-Unified-Remote
 A remote for Unified Remote that controls MPV (https://mpv.io/).
 
+<img src="https://raw.githubusercontent.com/hl2guide/MPV-Remote-for-Unified-Remote/master/Screenshots/1.png" width="300"> <img src="https://raw.githubusercontent.com/hl2guide/MPV-Remote-for-Unified-Remote/master/Screenshots/2.png" width="300">
+
 ## Usage
 - Install Unified Remote
 - Extract this repo to either:
